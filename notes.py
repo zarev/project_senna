@@ -9,17 +9,33 @@ def game_plan():
   # C: rotation... 6DOF?
 
   # 1: ---get acceleration data---
-  #  1.1: figure out how to base addresses
-  #   1.1.1: Find addresses for the 6 DOF
-  #   1.1.2: Find address for G-Force Value 
-  #  1.2: perform AOB scan to find static address for acceleration
-  #  1.3: script to print the data live
+  #  1.1: figure out how to find base addresses
+  #   1.1.1: Bypass anti-cheat for Forza
+  #   1.1.2: Find addresses for the 6 DOF
+  #   1.1.3: Find address for G-Force Value 
+  #  1.2: script to print the data live
   # 2: ---translate the data into a motion model---
   #  2.1: start with linear only
   #  2.2: add sideways
   # 3: ---implement with the vest---
   #  3.1: together with 2.1
   pass
+
+def telemetry_data():
+# acceleration_x
+# acceleration_y
+# acceleration_z
+# velocity_x
+# velocity_y
+# velocity_z
+# angular_velocity_x
+# angular_velocity_y
+# angular_velocity_z
+# yaw
+# pitch
+# roll
+# Center of Gravity position (distance from front and rear axis, and height)
+pass
 
 def references():
 
@@ -48,4 +64,11 @@ def references():
   # monster simulator: https://www.youtube.com/watch?v=hQLF06rwzVE
   # create AOB:
   # https://www.youtube.com/watch?v=5GQ6nOi9oQ0
+  # forza out packet struct:
+  # https://forums.forzamotorsport.net/turn10_postst128499_Forza-Motorsport-7--Data-Out--feature-details.aspx
+  # forza python api:
+  # https://github.com/nettrom/forza_motorsport
+  # speed hack guy:
+  # https://www.unknowncheats.me/forum/members/2246238.html?__cf_chl_captcha_tk__=6b247b85de859926cbd99a3bc187d1c5a8572b45-1590791366-0-AXFqaQcJrtl6BQyn3G8YqvM-Jw1VNLIrNac_cz_5QXAM9_DLxV9gXb4a3vIfZNjQ2VTv2SgSlPT1ymCw8OK4f0i4D7Db0-Q2ljw8jtaWRZItStJj4m71hnvZBZ2Jq2VeotY3WT31b8ySULN3SBkywox8JMtHrXViI0DMx1NQmyAWA3KO8fmUSbDYIqStwQBIHZqMLKev_c9igmuf728CNe-vG2KCX1CLFj8nHfd7FgHnW298-5TONQZPrYIsdwtlhhJddtf90erRzDQ2ttYTe3wT1YhYqOoUF1oHIcYqPgbVXkSRb4cVAhykYt5tBAugVu6AIIyoIYNeVfCmoDNHKTMVZ_nCWzschQ1aSwy9UkqXTdbq0N6d8G48kabBa2J34tw4-xgECuKCemMbP-x2VstvgcCjrC20TXgJwjMDsmupm6087Gw1c8Blz5hjbaXdhLHc5-rdhuWhhtzIXRCCAtBJaHQKm3kRWwgeQKTBrk1lpJqKGzZ9cObU3CK6tFD9WFJpXUNcVr5etsWcPD_12KWKWzZ9pJDkvB13xWtQk4smHQPlvs4W_9fZIg3rOOH-nxAB4yAMKbviUPPnRI-EE4Q
+  
   pass
